@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pragati Dixit | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP NAVBAR -->
+<header class="top-nav">
+  <div class="nav-logo">Pragati Dixit</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="layout">
+
+<!-- LEFT PROFILE -->
+<aside class="profile-card">
+  <img src="profile.jpg">
+  <h1>Pragati Dixit</h1>
+  <p>Web Developer | IT Student</p>
+
+  <div class="socials">
+    <a href="mailto:pragatidixit848@gmail.com">Email</a>
+    <a href="https://github.com/pragatiDxit23" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/pragati-dixit-150737347" target="_blank">LinkedIn</a>
+  </div>
+</aside>
+
+<!-- RIGHT CONTENT -->
+<main class="content">
+
+<section id="home" class="section hero">
+  <h2>Hello 👋</h2>
+  <h1>I’m <span>Pragati Dixit</span></h1>
+  <p>Frontend Developer & Prodigy InfoTech Intern. I build modern, responsive and interactive websites.</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am an IT student and passionate web developer who loves building modern, responsive and user-friendly websites.
+    I have completed multiple internship tasks including landing pages, games and interactive web applications.
+  </p>
+  <p>
+    I enjoy learning new technologies and improving my design and development skills.
+    My long-term goal is to become a professional full-stack developer and work on real-world impactful projects.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Skills</h2>
+  <div class="tags">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    <span>Python</span><span>GitHub</span><span>Responsive Design</span>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="projects">
+    <div class="project">
+      <h3>Responsive Landing Page</h3>
+      <p>Internship task – modern landing page.</p>
+      <a href="https://pragatidxit23.github.io/PRODIGY_WD_01/" target="_blank">Live Demo</a>
+      <a href="https://github.com/pragatiDxit23/PRODIGY_WD_01" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>Stopwatch Web App</h3>
+      <p>JavaScript based stopwatch application.</p>
+      <a href="https://pragatidxit23.github.io/PRODIGY_WD_02/" target="_blank">Live Demo</a>
+      <a href="https://github.com/pragatiDxit23/PRODIGY_WD_02" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>Tic Tac Toe Game</h3>
+      <p>Game with logic & UI.</p>
+      <a href="https://pragatidxit23.github.io/PRODIGY_WD_03/" target="_blank">Live Demo</a>
+      <a href="https://github.com/pragatiDxit23/PRODIGY_WD_03" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>My personal web developer portfolio.</p>
+      <a href="#" target="_blank">Live Demo</a>
+      <a href="https://github.com/pragatiDxit23" target="_blank">GitHub Repo</a>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <p><b>Web Development Intern – Prodigy InfoTech (2026)</b></p>
+  <p>Worked on responsive layouts, UI design and JavaScript based web applications.</p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <p>📧 <a href="mailto:pragatidixit848@gmail.com">pragatidixit848@gmail.com</a></p>
+
+  <form class="contact-form" onsubmit="sendMessage(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+</main>
+</div>
+
+<!-- POPUP -->
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <h2>Message Sent ✅</h2>
+    <p>Thank you for contacting me. I will reply soon.</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
